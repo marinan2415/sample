@@ -1,12 +1,12 @@
 steps:
-  REGION-4f56edd2-839d-4d59-a1c0-99790d0ba9cb:
+  REGION-c0ef6e15-672e-4345-b482-b658dce3fdee:
     operation:
       database: ""
       dataset: ""
       deployEnabled: true
       description: Region data as defined by TPC-H
       locationID: ""
-      locationName: SAMPLE
+      locationName: WORK
       metadata:
         columns:
           - acceptedValues:
@@ -14,8 +14,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 4f7ac41f-ecc8-4d9f-9372-d924757ac6a4
-              stepCounter: 4f56edd2-839d-4d59-a1c0-99790d0ba9cb
+              columnCounter: b6a269bf-eb2f-4626-9ad3-121b2975c1a3
+              stepCounter: c0ef6e15-672e-4345-b482-b658dce3fdee
             config: {}
             dataType: NUMBER(38,0)
             defaultValue: ""
@@ -29,8 +29,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: b4ebfefb-1162-4e8f-a96e-16eafcd57927
-              stepCounter: 4f56edd2-839d-4d59-a1c0-99790d0ba9cb
+              columnCounter: 623740f9-9b67-4318-955d-1caa2a3f01d7
+              stepCounter: c0ef6e15-672e-4345-b482-b658dce3fdee
             config: {}
             dataType: VARCHAR(25)
             defaultValue: ""
@@ -44,8 +44,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: bed65602-521d-464c-b297-3f1a628b4db2
-              stepCounter: 4f56edd2-839d-4d59-a1c0-99790d0ba9cb
+              columnCounter: c36aaba8-83d7-49ce-84ba-7e7888aa86b7
+              stepCounter: c0ef6e15-672e-4345-b482-b658dce3fdee
             config: {}
             dataType: VARCHAR(152)
             defaultValue: ""
@@ -55,10 +55,10 @@ steps:
             primaryKey: false
             uniqueKey: false
         join:
-          joinCondition: FROM {{ ref('SAMPLE', 'REGION') }}
+          joinCondition: FROM {{ ref('WORK', 'REGION') }}
       name: REGION
       schema: ""
       sqlType: Source
       table: REGION
       type: sourceInput
-    stepCounter: 4f56edd2-839d-4d59-a1c0-99790d0ba9cb
+    stepCounter: c0ef6e15-672e-4345-b482-b658dce3fdee
