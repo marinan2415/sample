@@ -1,12 +1,12 @@
 steps:
-  REGION-c0ef6e15-672e-4345-b482-b658dce3fdee:
+  NATION-5df68f4a-dd8d-45de-b6fd-e2f16882acf6:
     operation:
       database: ""
       dataset: ""
       deployEnabled: true
-      description: Region data as defined by TPC-H
+      description: Nation data as defined by TPC-H
       locationID: ""
-      locationName: WORK
+      locationName: SAMPLE
       metadata:
         columns:
           - acceptedValues:
@@ -14,13 +14,13 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: b6a269bf-eb2f-4626-9ad3-121b2975c1a3
-              stepCounter: c0ef6e15-672e-4345-b482-b658dce3fdee
+              columnCounter: e01c0369-15c6-40c8-b30a-cbf194dfb947
+              stepCounter: 5df68f4a-dd8d-45de-b6fd-e2f16882acf6
             config: {}
             dataType: NUMBER(38,0)
             defaultValue: ""
             description: ""
-            name: R_REGIONKEY
+            name: N_NATIONKEY
             nullable: false
             primaryKey: false
             uniqueKey: false
@@ -29,13 +29,13 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 623740f9-9b67-4318-955d-1caa2a3f01d7
-              stepCounter: c0ef6e15-672e-4345-b482-b658dce3fdee
+              columnCounter: 5eb8fc6a-164c-4d6b-82f0-e7a3f655f2ec
+              stepCounter: 5df68f4a-dd8d-45de-b6fd-e2f16882acf6
             config: {}
             dataType: VARCHAR(25)
             defaultValue: ""
             description: ""
-            name: R_NAME
+            name: N_NAME
             nullable: false
             primaryKey: false
             uniqueKey: false
@@ -44,21 +44,36 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: c36aaba8-83d7-49ce-84ba-7e7888aa86b7
-              stepCounter: c0ef6e15-672e-4345-b482-b658dce3fdee
+              columnCounter: 09f64ba7-e20b-4122-905b-1ee586b1d8eb
+              stepCounter: 5df68f4a-dd8d-45de-b6fd-e2f16882acf6
+            config: {}
+            dataType: NUMBER(38,0)
+            defaultValue: ""
+            description: ""
+            name: N_REGIONKEY
+            nullable: false
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 19aab621-093a-40bf-8cb4-ca031ba98aeb
+              stepCounter: 5df68f4a-dd8d-45de-b6fd-e2f16882acf6
             config: {}
             dataType: VARCHAR(152)
             defaultValue: ""
             description: ""
-            name: R_COMMENT
+            name: N_COMMENT
             nullable: true
             primaryKey: false
             uniqueKey: false
         join:
-          joinCondition: FROM {{ ref('WORK', 'REGION') }}
-      name: REGION
+          joinCondition: FROM {{ ref('SAMPLE', 'NATION') }}
+      name: NATION
       schema: ""
       sqlType: Source
-      table: REGION
+      table: NATION
       type: sourceInput
-    stepCounter: c0ef6e15-672e-4345-b482-b658dce3fdee
+    stepCounter: 5df68f4a-dd8d-45de-b6fd-e2f16882acf6
