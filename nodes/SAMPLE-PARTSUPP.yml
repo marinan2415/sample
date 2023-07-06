@@ -1,5 +1,5 @@
 steps:
-  PARTSUPP-0e302297-16cd-4fc5-96db-8af1c1a260ae:
+  PARTSUPP-d396eb3c-1ad9-47a8-8ad1-149066f8f7e0:
     operation:
       database: ""
       dataset: ""
@@ -14,8 +14,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 4815164d-158f-4692-b45f-2a813fefab45
-              stepCounter: 0e302297-16cd-4fc5-96db-8af1c1a260ae
+              columnCounter: f79d1f3c-bc79-48ab-b7ec-b0d346ddf66f
+              stepCounter: d396eb3c-1ad9-47a8-8ad1-149066f8f7e0
             config: {}
             dataType: NUMBER(38,0)
             defaultValue: ""
@@ -29,8 +29,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: c2423c63-2cf4-4650-b210-cd725af14ad9
-              stepCounter: 0e302297-16cd-4fc5-96db-8af1c1a260ae
+              columnCounter: 8e389a67-b972-447c-bfc8-c7e753c500bd
+              stepCounter: d396eb3c-1ad9-47a8-8ad1-149066f8f7e0
             config: {}
             dataType: NUMBER(38,0)
             defaultValue: ""
@@ -44,8 +44,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 7b39d252-7151-4ebc-94eb-2226d4fec2fa
-              stepCounter: 0e302297-16cd-4fc5-96db-8af1c1a260ae
+              columnCounter: 57979aed-4249-4507-aff1-67224c845c26
+              stepCounter: d396eb3c-1ad9-47a8-8ad1-149066f8f7e0
             config: {}
             dataType: NUMBER(38,0)
             defaultValue: ""
@@ -59,8 +59,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 9ca6af08-f917-4f88-b4a7-deaca2e69b30
-              stepCounter: 0e302297-16cd-4fc5-96db-8af1c1a260ae
+              columnCounter: 99382b86-6c45-430b-a2d0-e1d5fe63ce3c
+              stepCounter: d396eb3c-1ad9-47a8-8ad1-149066f8f7e0
             config: {}
             dataType: NUMBER(12,2)
             defaultValue: ""
@@ -74,8 +74,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 0f0f0910-654a-446e-a7f6-6341d5575aae
-              stepCounter: 0e302297-16cd-4fc5-96db-8af1c1a260ae
+              columnCounter: 2260f22d-c1ab-489c-a52c-cdc657fd6409
+              stepCounter: d396eb3c-1ad9-47a8-8ad1-149066f8f7e0
             config: {}
             dataType: VARCHAR(199)
             defaultValue: ""
@@ -91,4 +91,4 @@ steps:
       sqlType: Source
       table: PARTSUPP
       type: sourceInput
-    stepCounter: 0e302297-16cd-4fc5-96db-8af1c1a260ae
+    stepCounter: d396eb3c-1ad9-47a8-8ad1-149066f8f7e0
