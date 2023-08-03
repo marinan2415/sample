@@ -1,5 +1,12 @@
 defaultStorageMapping: WORK
-jobs: {}
+jobs:
+  Job-4:
+    excludeSelector: ""
+    id: 4
+    includeSelector: "{name:STG_CUSTOMER}"
+    name: New Job
+    steps: []
+    subgraphs: []
 locations:
   SAMPLE:
     mappingDefinitions: {}
@@ -1948,4 +1955,4 @@ stepTypes:
     name: Persistent Stage
     version: 1
 subgraphs: {}
-version: 1
+version: 2
