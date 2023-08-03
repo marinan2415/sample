@@ -1,17 +1,23 @@
 defaultStorageMapping: WORK
 jobs:
-  Job-4:
+  Job-5:
     excludeSelector: ""
-    id: 4
-    includeSelector: "{name:STG_CUSTOMER}"
+    id: 5
+    includeSelector: "{nodeType:\"Dimension\"}"
     name: New Job
     steps: []
     subgraphs: []
 locations:
   SAMPLE:
-    mappingDefinitions: {}
+    mappingDefinitions:
+      "9":
+        database: SNOWFLAKE_SAMPLE_DATA
+        schema: TPCH_SF1
   WORK:
-    mappingDefinitions: {}
+    mappingDefinitions:
+      "9":
+        database: WORK
+        schema: PUBLIC
 macros: {}
 packages: {}
 projects: {}

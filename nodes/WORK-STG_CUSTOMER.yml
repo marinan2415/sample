@@ -13,7 +13,7 @@ steps:
       isDataVault: false
       isMultisource: false
       locationName: WORK
-      materializationType: view
+      materializationType: table
       metadata:
         appliedNodeTests: []
         columns:
@@ -129,6 +129,27 @@ steps:
                   - columnCounter: 6cc3f706-96a2-4af0-b95e-aa6752cc23c9
                     stepCounter: d657b455-13fc-4ca9-990a-5e06a0480e4b
                 transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 2d80efb5-ca8b-46ab-87f6-04269c98bee3
+              stepCounter: ac2a5ec2-ab18-4575-b58c-d8b7d14700ad
+            config: {}
+            dataType: VARCHAR(117)
+            defaultValue: ""
+            description: ADD NEW DESCRIPTION
+            keyColumnType: None
+            name: C_NEW
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: bcc26171-9cb3-45d0-b57c-4edf792b5671
+                    stepCounter: d657b455-13fc-4ca9-990a-5e06a0480e4b
+                transform: ""
+            systemColumnType: None
+            transform: ""
         cteString: ""
         enabledColumnTestIDs: []
         sourceMapping:
