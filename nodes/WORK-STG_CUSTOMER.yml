@@ -132,7 +132,9 @@ steps:
         cteString: ""
         enabledColumnTestIDs: []
         sourceMapping:
-          - customSQL:
+          - aliases:
+              CUSTOMER: f98e0ddc-e9b4-4929-a6ad-796e72a3a1c1
+            customSQL:
               customSQL: ""
             dependencies:
               - locationName: SAMPLE
